@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed"
+  },
   "author": "Raphael Araujo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
 }
