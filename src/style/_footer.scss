@@ -5,11 +5,15 @@ footer {
   color: colors.$soft-blue;
   font-weight: 300;
 
-  a {
-    color: colors.$white;
+  p {
+    font-size: 0.75rem;
+    a {
+      font-size: 0.75rem;
+      color: colors.$white;
 
-    &:hover {
-      color: colors.$cyan;
+      &:hover {
+        color: colors.$cyan;
+      }
     }
   }
 }
