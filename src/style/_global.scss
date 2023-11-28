@@ -3,5 +3,11 @@
 body {
   background-color: colors.$very-dark-blue-main;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 3.75rem);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
