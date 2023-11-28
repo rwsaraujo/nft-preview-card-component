@@ -1,0 +1,15 @@
+@use "colors";
+
+footer {
+  height: 60px;
+  color: colors.$soft-blue;
+  font-weight: 300;
+
+  a {
+    color: colors.$white;
+
+    &:hover {
+      color: colors.$cyan;
+    }
+  }
+}
